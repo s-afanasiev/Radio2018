@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue">
+
+        <ImageView
+            android:id="@+id/schedule_item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/radio_sputnik"/>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:text="title text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/arrow_down_float"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:layout_marginRight="15dp"
+            android:scaleX="3"
+            android:scaleY="3"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/sym_contact_card"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            android:visibility="visible"
+            android:scaleX="3"
+            android:scaleY="3"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content text"
+        android:visibility="gone"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:padding="10dp"
+        android:text="12:00"/>
+</LinearLayout>

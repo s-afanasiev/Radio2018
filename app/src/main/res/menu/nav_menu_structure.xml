@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_radio"
+          android:title="@string/menu_radio"
+          android:icon="@android:drawable/ic_dialog_info" />
+    <item android:id="@+id/menu_announce"
+          android:title="@string/menu_announce"
+          android:icon="@android:drawable/ic_dialog_map" />
+    <item android:id="@+id/menu_refs"
+          android:title="@string/menu_refs"
+          android:icon="@android:drawable/ic_dialog_dialer"
+        />
+    <item android:id="@+id/menu_else"
+          android:title="@string/menu_else"
+          android:icon="@android:drawable/ic_dialog_alert"
+        />
+</menu>
